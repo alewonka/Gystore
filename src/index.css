@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#f2f1f7] text-black max-w-full w-full h-[1000px];
+}
+
+.nblur {
+  @apply fixed bg-[#141414] bg-opacity-80 z-50;
+}
